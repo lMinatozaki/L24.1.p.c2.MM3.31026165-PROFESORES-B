@@ -25,15 +25,6 @@ export default class Cl_main {
         Cantidad de horas: ${profesor1.horas}
         <br>
         Ingreso total del profesor ${profesor1.nombre}: $${profesor1.ingresoTotal()}
-        <br>
-        <br>
-        Nombre del profesor contratado: ${profesor2.nombre}
-        <br>
-        Monto del bono: $${profesor2.bono}
-        <br>
-        Cantidad de horas: ${profesor2.horas}
-        <br>
-        Ingreso total del profesor ${profesor2.nombre}: $${profesor2.ingresoTotal()}
     `;
   }
 }
